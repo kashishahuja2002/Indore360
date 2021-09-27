@@ -1,0 +1,309 @@
+/********** Starting CSS  **********/
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #1B93CB;
+}
+
+button
+{
+    background-color: #1B93CB;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+button:hover
+{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* Header */
+.header
+{
+    margin-left: 40px;
+}
+
+.header h1{
+    display: inline;
+    position: relative;
+    top: -25px;
+    left: 15px;
+    font-size: 40px;
+    color: #1B93CB;
+}
+
+.header .call-icon
+{
+    position: absolute;
+    top: 30px;
+    right: 600px;
+}
+
+.header h3.call{
+    display: inline;
+    position: absolute;
+    top: 20px;
+    right: 450px;
+}
+
+.header .mail-icon
+{
+    position: absolute;
+    top: 35px;
+    right: 330px;
+}
+
+.header h3.mail{
+    display: inline;
+    position: absolute;
+    top: 20px;
+    right: 70px;
+}
+
+/* Sub header */
+.sub-header
+{
+    background-color: #1B93CB;
+    padding: 0.1px;
+}
+.sub-header ul li
+{
+    display: inline-block;
+}
+
+.sub-header ul li a 
+{
+    color: white;
+    background-color: #1B93CB;
+    padding: 15px 30px;
+    font-size: 20px;
+}
+
+.sub-header ul li a.active
+{
+    background: black;
+    color: white;
+}
+
+.sub-header ul li a:hover
+{
+    background-color: black !important;
+}
+
+/* Footer */
+.footer
+{
+    background-color: #333333;
+}
+
+.footer .section
+{
+    display: inline-block;
+    color: white;
+    width: calc(25% - 45px);
+    margin: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.footer .section h4
+{
+    font-size: 30px;
+    text-decoration: underline;
+    margin: 0;
+    margin-left: 40px;
+}
+
+.footer .section li
+{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.footer .section li a
+{
+    color: white;
+    font-size: 20px;
+}
+
+.footer .section li a:hover
+{
+    color: #1B93CB;
+    font-size: 25px;
+}
+
+.footer .section li p
+{
+    font-size: 20px;
+}
+
+/* Sub footer */
+.sub-footer
+{
+    background-color: #1B93CB;
+    text-align: center;
+    font-size: 18px;
+    padding: 0.1px;
+    color: white;
+}
+
+/********** Index **********/
+
+/* Image Banner */
+.indore{
+    text-align: center;
+}
+.indore img 
+{
+    margin: 15px 0px;
+}
+
+/* Services */
+.services
+{
+    text-align: center;
+}
+
+.services h2
+{
+    font-size: 40px;
+    color: #1B93CB;
+    text-decoration: underline;
+}
+
+.services .box
+{
+    display: inline-block;
+    margin: 30px;
+}
+
+.services img
+{
+    width: 400px;
+    height: 300px;
+}
+
+.services figcaption {
+	height: 40px;
+	margin-top: -70px;
+    padding: 10px;
+	text-align: center;
+	color: white;
+	background: black;
+	opacity: 0.8;
+    font-size: 30px;
+}
+
+.services .all-services
+{
+    background-color: #1B93CB;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.services .all-services:hover
+{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/********** About **********/
+.about .left-panel, .about .right-panel
+{
+    display: inline;
+}
+
+.about .left-panel img
+{
+    display: inline;
+    margin: 50px;
+    width: 30%;
+}
+
+.about .right-panel
+{
+    position: absolute;
+    top: 170px;
+    left: 550px;
+    padding: 60px;
+}
+
+.about .right-panel h1
+{
+    color: #1B93CB;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.about .right-panel p
+{
+    font-size: 28px;
+}
+
+/********** Contact **********/
+.contact
+{
+    margin: 50px;
+}
+
+.contact .section
+{
+    display: inline-block;
+    color: black;
+    width: calc(50% - 45px);
+    margin: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.contact .section h4
+{
+    font-size: 30px;
+    text-decoration: underline;
+    margin: 0;
+    margin-left: 40px;
+    color: #1B93CB;
+}
+
+.contact .section li
+{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.contact .section li a
+{
+    color: black;
+    font-size: 20px;
+}
+
+.contact .section li a:hover
+{
+    color: #1B93CB;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contact .section li p
+{
+    font-size: 20px;
+}
